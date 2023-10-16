@@ -11,6 +11,11 @@
 		64CC24052ADD377500B8BAD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CC24042ADD377500B8BAD5 /* ContentView.swift */; };
 		64CC24072ADD377600B8BAD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64CC24062ADD377600B8BAD5 /* Assets.xcassets */; };
 		64CC240A2ADD377600B8BAD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64CC24092ADD377600B8BAD5 /* Preview Assets.xcassets */; };
+		64CC24112ADD79C500B8BAD5 /* MeditationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CC24102ADD79C500B8BAD5 /* MeditationView.swift */; };
+		64CC24132ADD8B5B00B8BAD5 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CC24122ADD8B5B00B8BAD5 /* PlayerView.swift */; };
+		64CC24152ADD9B2F00B8BAD5 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CC24142ADD9B2F00B8BAD5 /* AudioManager.swift */; };
+		64CC24192ADD9D7D00B8BAD5 /* water.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64CC24182ADD9D7D00B8BAD5 /* water.mp3 */; };
+		64CC241C2ADDA45700B8BAD5 /* TimeComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CC241B2ADDA45700B8BAD5 /* TimeComponents.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,12 @@
 		64CC24042ADD377500B8BAD5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		64CC24062ADD377600B8BAD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64CC24092ADD377600B8BAD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64CC24102ADD79C500B8BAD5 /* MeditationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationView.swift; sourceTree = "<group>"; };
+		64CC24122ADD8B5B00B8BAD5 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		64CC24142ADD9B2F00B8BAD5 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		64CC24182ADD9D7D00B8BAD5 /* water.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = water.mp3; sourceTree = "<group>"; };
+		64CC241A2ADD9ECE00B8BAD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		64CC241B2ADDA45700B8BAD5 /* TimeComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeComponents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +62,14 @@
 		64CC24012ADD377500B8BAD5 /* Meditation-App */ = {
 			isa = PBXGroup;
 			children = (
+				64CC241A2ADD9ECE00B8BAD5 /* Info.plist */,
 				64CC24022ADD377500B8BAD5 /* Meditation_AppApp.swift */,
 				64CC24042ADD377500B8BAD5 /* ContentView.swift */,
+				64CC24102ADD79C500B8BAD5 /* MeditationView.swift */,
+				64CC24122ADD8B5B00B8BAD5 /* PlayerView.swift */,
+				64CC241B2ADDA45700B8BAD5 /* TimeComponents.swift */,
+				64CC24142ADD9B2F00B8BAD5 /* AudioManager.swift */,
+				64CC24182ADD9D7D00B8BAD5 /* water.mp3 */,
 				64CC24062ADD377600B8BAD5 /* Assets.xcassets */,
 				64CC24082ADD377600B8BAD5 /* Preview Content */,
 			);
@@ -127,6 +144,7 @@
 			files = (
 				64CC240A2ADD377600B8BAD5 /* Preview Assets.xcassets in Resources */,
 				64CC24072ADD377600B8BAD5 /* Assets.xcassets in Resources */,
+				64CC24192ADD9D7D00B8BAD5 /* water.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +156,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				64CC24052ADD377500B8BAD5 /* ContentView.swift in Sources */,
+				64CC24112ADD79C500B8BAD5 /* MeditationView.swift in Sources */,
 				64CC24032ADD377500B8BAD5 /* Meditation_AppApp.swift in Sources */,
+				64CC24152ADD9B2F00B8BAD5 /* AudioManager.swift in Sources */,
+				64CC241C2ADDA45700B8BAD5 /* TimeComponents.swift in Sources */,
+				64CC24132ADD8B5B00B8BAD5 /* PlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +297,7 @@
 				DEVELOPMENT_TEAM = H4X7G96ZKF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Meditation-App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +327,7 @@
 				DEVELOPMENT_TEAM = H4X7G96ZKF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Meditation-App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
